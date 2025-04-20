@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raghav Kacholia | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Raghav Kacholia</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Hi, I'm Raghav</h2>
+      <p>Product Enthusiast | IIM Bangalore | Future Builder</p>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I’m Raghav Kacholia, currently pursuing my studies at the Indian Institute of Management Bangalore.
+      With a deep interest in product management, technology, and innovation, I’m passionate about building
+      digital experiences that solve real-world problems. I believe in a blend of strategic thinking, creative design,
+      and a strong understanding of user behavior to create meaningful impact.
+    </p>
+    <p>
+      Beyond academics, I enjoy exploring startups, understanding what makes products click, and continuously leveling up my skills in design, tech, and business.
+    </p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Startup Simulation Game:</strong> Designed a game that simulates startup decision-making and market growth scenarios.</li>
+      <li><strong>Case Study - Swiggy's Growth:</strong> Analyzed Swiggy’s business model, user experience, and competitive strategy.</li>
+      <li><strong>Landing Page for a Fintech App:</strong> Built a sleek, responsive landing page for a mock fintech startup using HTML/CSS/JS.</li>
+    </ul>
+  </section>
+
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <p>You can download my resume below:</p>
+    <a href="resume.pdf" download class="btn-download">Download Resume (PDF)</a>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill">
+        <h3>Chess</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 85%;">85%</div>
+        </div>
+      </div>
+      <div class="skill">
+        <h3>Synthesiser</h3>
+        <div class="skill-bar">
+          <div class="skill-level" style="width: 70%;">70%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: raghavkacholia@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/raghavkacholia" target="_blank">linkedin.com/in/raghavkacholia</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Raghav Kacholia. All rights reserved.</p>
+  </footer>
+</body>
+</html>
